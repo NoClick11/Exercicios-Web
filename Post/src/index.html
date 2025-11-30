@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post API</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Criar Nova Publicação</h2>
+
+      <div class="form-group">
+        <label>Título do Post:</label>
+        <input type="text" id="tituloPost" placeholder="Ex: Aprendendo JS" />
+      </div>
+
+      <div class="form-group">
+        <label>Conteúdo:</label>
+        <textarea
+          id="textoPost"
+          rows="4"
+          placeholder="Escreva aqui..."
+        ></textarea>
+      </div>
+
+      <button id="btnPublicar">Publicar Post</button>
+
+      <div id="mensagem" class="msg" style="display: none"></div>
+    </div>
+  </body>
+</html>
